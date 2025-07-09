@@ -1,0 +1,16 @@
+p{
+    font-size: 20px;
+}
+
+.p1{
+    color: blue;
+}
+
+.p2{
+    color: chartreuse;
+}
+
+#pa2{
+    direction: rtl;
+    font-size: 26px;
+}
