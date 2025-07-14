@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+
+*{
+    text-decoration: none;
+}
+
+input{
+    display: block;
+}
+
+form{
+    width: 400px;
+    height: 600px;
+    background-color: aquamarine;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.link{
+    display: inline-block;
+    background-color: lightseagreen;
+    padding: 20px;
+    margin-top: 10px;
+    border: 2px rgb(255, 0, 0) solid;
+    margin-bottom: 10px;
+}
+
+button{
+    margin-top: 10px;
+    border: 2px red solid;
+    background-color: lightseagreen;
+    font-family: Vazirmatn;
+    padding: 10px;
+}
