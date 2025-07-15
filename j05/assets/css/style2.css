@@ -1,0 +1,20 @@
+h1{
+    background-color: chartreuse;
+    display: inline-block;
+    width: 50%;
+}
+
+p{
+    background-color: chocolate;
+    display: inline;
+}
+
+span{
+    background-color: crimson;
+    display: inline;
+}
+
+a{
+    background-color: darkcyan;
+    display: inline;
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+
+*{
+    font-family: Vazirmatn;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+.container{
+    background-color: indianred;
+    text-align: center;
+}
+
+.container .menu{
+    display: inline;
+}
+
+.container .menu .item{
+    display: inline-block;
+    margin: 10px;
+}
+
+.item-link{
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+}
+
+.search-logo{
+    color: white;
+    font-size: 12px;
+}

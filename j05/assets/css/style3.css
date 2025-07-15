@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+
+*{
+    font-family: Vazirmatn;
+}
+
+body{
+    background-color: #0e1019;
+}
+
+.container{
+    width: 400px;
+    height: 250px;
+    margin: 250px;
+    background-color: #414558;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+h1, p{
+    color: white;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.email-box{
+    margin: 0 40px;
+    height: 50px;
+    background-color: #757b9e;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.email, .register{
+    margin-top: 15px;
+}
+
+.email{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.register{
+    background-color: rgb(62, 62, 243);
+    border-radius: 10%;
+}
