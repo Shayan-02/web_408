@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    text-align: center;
+    direction: rtl;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    align-items: center;
+    height: 120px;
+    position: fixed;
+    z-index: 100;
+}
+
+.container .link{
+    color: aliceblue;
+}
+
+.link:hover{
+    background-color: black;
+    padding: 20px;
+}
+
+.item{
+    height: 100vh;
+}
+
+#home{
+    background-color:cornflowerblue;
+}
+
+#about{
+    background-color: crimson;
+}
+
+#call{
+    background-color: coral;
+}
+
+#course{
+    background-color: deepskyblue;
+}
+
+#store{
+    background-color: forestgreen;
+}
