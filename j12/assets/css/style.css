@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-primary : #c5e3ff;
+    --color-secondary : #654321;
+}
+
+body{
+    background-color: var(--color-primary);
+    text-align: center;
+}
+
+h1{
+    margin: 10px 20px;
+}
+
+.container{
+    margin-top: 400px;
+}
+
+.btn{
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    margin: auto;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    transition: all .7s ease-in-out;
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -ms-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+}
